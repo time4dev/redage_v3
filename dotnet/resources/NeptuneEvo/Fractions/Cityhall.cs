@@ -36,7 +36,7 @@ namespace NeptuneEvo.Fractions
         public static Vector3 GpsPosition = new Vector3(-1290.6262, -571.5192, 31.37f); 
         private static Vector3 CallingEmployeesPosition = new Vector3(-1289.8119, -572.5035, 30.573f);
 
-        private static Vector3 JobPosition = new Vector3(-1298.496, -567.3785, 30.570717);
+        public static Vector3 JobPosition = new Vector3(-1298.496, -567.3785, 30.570717);
         //private static Vector3 JobPosition1 = new Vector3(727.5652, 132.56389, 80.956436);
         // private static Vector3 JobPosition2 = new Vector3(901.8491, -174.96883, 74.047905); 
         //private static Vector3 JobPosition3 = new Vector3(133.08955, 96.42902, 83.50762); 

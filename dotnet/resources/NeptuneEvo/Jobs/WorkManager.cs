@@ -56,18 +56,20 @@ namespace NeptuneEvo.Jobs
             LangFunc.GetText(LangType.Ru, DataName.Inkassman),
             LangFunc.GetText(LangType.Ru, DataName.Mechanicman),
         };
+
         public static SortedList<int, Vector3> Points = new SortedList<int, Vector3>
         {
-            {0, new Vector3(436.5074, -627.4617, 28.70753) },  // Employment center
+            {0, Fractions.Cityhall.JobPosition },  // Employment center
             {1, new Vector3(724.9625, 133.9959, 79.83643) },  // Electrician job
-            {2, new Vector3(436.5074, -627.4617, 28.707539) },  // Postal job
-            {3, new Vector3(436.5074, -627.4617, 28.707539) },      // Taxi job
-            {4, new Vector3(436.5074, -627.4617, 28.707539) }, // Bus driver job
+            {2, Gopostal.Coords[0] },  // Postal job
+            {3, new Vector3(908.1477, -174.37341, 74.13617) },      // Taxi job
+            {4, new Vector3(435.23758, -653.01117, 0.0) }, // Bus driver job
             {5, new Vector3(-1330.482, 42.12986, 53.48915) },  // Lawnmower job
-            {6, new Vector3(436.5074, -627.4617, 28.707539) },  // Trucker job
-            {7, new Vector3(436.5074, -627.4617, 28.707539) },  // Collector job
-            {8, new Vector3(436.5074, -627.4617, 28.707539) },  // AutoMechanic job
+            {6, new Vector3(1018.9361, -2511.5688, 0.0) },  // Trucker job
+            {7, new Vector3(-196.52617, -830.6757, 0.0) },  // Collector job
+            {8, new Vector3(-229.61082, -1378.2086, 31.258224) },  // AutoMechanic job
         };
+
         private static SortedList<int, string> JobList = new SortedList<int, string>
         {
             {1, LangFunc.GetText(LangType.Ru, DataName.Electriciany) },
